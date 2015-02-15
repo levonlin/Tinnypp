@@ -30,4 +30,4 @@ Modify <code>theme</code> setting in <code>_config.yml</code> of the blog folder
 
 Modify settings in the file <code>themes/Tinnypp/_config.yml</code>.
 
-For more detials,you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/).
+For more detials,you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/).And if you have any problems,you can create [issues](https://github.com/levonlin/Tinnypp/issues).
