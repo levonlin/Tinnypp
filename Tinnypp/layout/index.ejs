@@ -1,0 +1,18 @@
+<%
+var prev = __('prev');
+var next = __('next');
+%>
+
+<div id="main">
+<% page.posts.each(function(item){ %>
+  <%- partial('_partial/article', {item: item, index: true,desc: true}) %>
+<% }); %>
+<% if (page.total > 1){ %>
+  <nav id="page-nav" class="clearfix">
+    <%- paginator({
+      prev_text: '&laquo; '+prev,
+      next_text: next+' &raquo;'
+    }) %>
+  </nav>
+<% } %>
+</div>
