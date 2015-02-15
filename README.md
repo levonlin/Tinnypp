@@ -17,9 +17,9 @@ I have made some optimizations on Tinny and you can see the [demo](http://www.le
 
 ####Enable
 
-Modify <code>theme</code> setting in <code>_config.yml</code> of the blog folder .
+Modify <code>theme</code> setting in <code>_config.yml</code> of the blog folder.
 
-    theme: hexo-theme/Tinnypp
+    theme: Tinnypp
 
 ####Update
 
