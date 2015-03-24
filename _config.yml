@@ -89,7 +89,7 @@ author:
 #### Comment
 duoshuo: 
   enable: true  ## duoshuo.com
-  short_name: levonlingithubio   ## duoshuo short name.
+  short_name:    ##your duoshuo short name.
 
 #### Share button
 jiathis:
