@@ -62,6 +62,6 @@ For more detials,you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/).
 
 编辑<code>themes/Tinnypp/_config.yml</code>文件即可。
 
-本主题内置[swiftype](https://swiftype.com/)作为站内搜索引擎，如果你想使用这个酷炫的搜索，请在<code>themes/Tinnypp/layout/_partial/head.ejs</code>里将最后一个<code>&ltscript&gt&lt/script&gt</code>标签改为你的swiftype安装代码。:)
+本主题内置[swiftype](https://swiftype.com/)作为站内搜索引擎，如果你想使用这个酷炫的搜索，请在<code>themes/Tinnypp/layout/_partial/head.ejs</code>里将最后一个<code>&lt;script&gt;&lt;/script&gt;</code>标签改为你的swiftype安装代码。:)
 
 更多细节，各位亲们可以访问[我的博客](http://www.levonlin.info/tags/Tinnypp/)。如果觉得这个主题有什么值得吐槽和改进的地方，也欢迎各位亲们给我发[issues](https://github.com/levonlin/Tinnypp/issues)。
