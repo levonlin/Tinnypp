@@ -137,7 +137,7 @@ $(document).ready(function(){
   (function() {
     var ds = document.createElement('script');
     ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';    //change to ds.src = '//yousite/js/embed.js'; to add useragent for duoshuo
+    ds.src = '//static.duoshuo.com/embed.js';    //change to ds.src = '<%- config.root %>js/embed.js'; to add useragent for duoshuo
     ds.charset = 'UTF-8';
     (document.getElementsByTagName('head')[0] 
     || document.getElementsByTagName('body')[0]).appendChild(ds);
