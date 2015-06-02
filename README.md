@@ -81,7 +81,16 @@ For more detials,you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/) 
 
 2.使用[多说](http://duoshuo.com/)作为评论系统，可在<code>Tinnypp/_config.yml</code>中开启或关闭。此外如果你想显示评论者的[user agent](http://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E4%BB%A3%E7%90%86)，可直接修改<code>themes/Tinnypp/layout/_partial/after_footer.ejs</code>里的<code>ds.src = '//static.duoshuo.com/embed.js';</code>为<code>'ds.src = '<%- config.root %>js/embed.js'';</code>，并在你的多说里添加这个[自定义css](https://github.com/levonlin/Tinnypp/blob/master/source/css/%E5%A4%9A%E8%AF%B4%E8%87%AA%E5%AE%9A%E4%B9%89.css)即可。若还想显示你的“博主头衔”，请记得编辑<code>Tinnypp/source/js/embed.js</code>里的<code>e.user_id == your duoshuo ID</code>。
 
-3.
+3.已经设置/atom.xml为rss源。要使用rss,先安装hexo的rss插件：
+
+	$npm install hexo-generator-feed
+
+然后添加 
+
+	plugins:
+	- hexo-generator-feed
+
+到博客文件夹下的<code>_config.yml</code>。
 
 4.中文显示在博客文件夹下的<code>_config.yml</code>设置
 
