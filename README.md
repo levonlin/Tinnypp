@@ -40,8 +40,8 @@ Tinnypp :
 
 Then add 
 
-plugins:
-- hexo-generator-feed
+	plugins:
+	- hexo-generator-feed
 
 in <code>_config.yml</code> of the blog folder.
 
