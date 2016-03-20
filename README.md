@@ -103,9 +103,10 @@ For more detials,you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/) 
 	time_format: H:mm:ss
 
 5.如果想用主题里的highgLight.js自定义代码高亮，有几点需要注意的：
+
 * 得先把hexo的<code>_config.yml</code>.yml（不是主题里那个）里的highlight配置为false，否则就只能用默认的代码高亮；
-* 上一步做好后还得先<code>hexo clean<code>、再<code>hexo g<code>；新设置才会生效；
-* 由于主题里的highgLight.js使用了cdn加载样式，自定义的代码高亮只有在联网时才会显示，同时高亮样式的名字应该参考[cdn上的](http://www.bootcdn.cn/highlight.js/)。
-* highgLight.js不支持显示行号。
+* 上一步做好后还得先hexo clean、再hexo g；新设置才会生效；
+* 由于主题里的highgLight.js使用了cdn加载样式，自定义的代码高亮只有在联网时才会显示，同时高亮样式的名字应该参考[cdn上的](http://www.bootcdn.cn/highlight.js/)；
+* highgLight.js**不支持**显示行号。
 
 更多细节，各位亲们可以访问[我的博客](http://www.levonlin.info/tags/Tinnypp/)。如果觉得这个主题有什么值得吐槽和改进的地方，也欢迎各位亲们给我发[issues](https://github.com/levonlin/Tinnypp/issues)。
