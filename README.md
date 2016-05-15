@@ -11,20 +11,26 @@ I have made some optimizations on Tinny and you can see the [demo](http://levonl
 ###Installation
 
 ####Install
-	
+
+```	
 	$ cd themes
 	$ git clone git@github.com:levonlin/Tinnypp.git
+```
 
 ####Enable
 
 Modify the <code>theme</code> setting in <code>_config.yml</code> of the blog folder.
 
+```
     theme: Tinnypp
+```
 
 ####Update
 
+```
 	$ cd themes/Tinnypp
 	$ git pull
+```
 
 ###Configuration
 
@@ -36,12 +42,16 @@ Tinnypp :
 
 2.has set /atom.xml as an rss source.To use rss,you can install hexo rss plugin
 
+```
 	$npm install hexo-generator-feed
+```
 
 Then add 
 
+```
 	plugins:
 	- hexo-generator-feed
+```
 
 in <code>_config.yml</code> of the blog folder.
 
@@ -56,20 +66,26 @@ For more detials,you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/) 
 ###装载本主题
 
 ####安装
-	
+
+```
 	$ cd themes
 	$ git clone git@github.com:levonlin/Tinnypp.git
+```
 
 ####载入
 
 去你博客文件夹下的<code>_config.yml</code>文件编辑<code>theme</code>设定如下：
 
+```
     theme: Tinnypp
+```
 
 ####升级
 
+```
 	$ cd themes/Tinnypp
 	$ git pull
+```
 
 ###设置本主题
 
@@ -83,28 +99,36 @@ For more detials,you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/) 
 
 3.已经设置/atom.xml为rss源。要使用rss,先安装hexo的rss插件：
 
+```
 	$npm install hexo-generator-feed
+```
 
 然后添加 
 
+```
 	plugins:
 	- hexo-generator-feed
+```
 
 到博客文件夹下的<code>_config.yml</code>。
 
 4.中文显示在博客文件夹下的<code>_config.yml</code>设置
 
+```
 	language: zh-CN
+```
 
 即可。但若想在文章发布日期有符合中文习惯的显示，请在<code>_config.yml</code>里继续设置
 
+```
 	month_format: YYYY年 MMM
 	date_format: YYYY年 MMM D日 
 	time_format: H:mm:ss
+```
 
 5.如果想用主题里的highgLight.js自定义代码高亮，有几点需要注意的：
 
-* 得先把hexo的<code>_config.yml</code>.yml（不是主题里那个）里的highlight配置为false，否则就只能用默认的代码高亮；
+* 得先把hexo的<code>_config.yml</code>.yml（不是主题里那个）里的highlight配置为false，否则就只能用hexo自带的的代码高亮；
 * 上一步做好后还得先hexo clean、再hexo g；新设置才会生效；
 * 由于主题里的highgLight.js使用了cdn加载样式，自定义的代码高亮只有在联网时才会显示，同时高亮样式的名字应该参考[cdn上的](http://www.bootcdn.cn/highlight.js/)；
 * highgLight.js**不支持**显示行号。
