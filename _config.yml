@@ -66,7 +66,7 @@ fancybox: true
 #### highgLight.js
 
 colorscheme:
-  enable: true
+  enable: false
   color: railscasts
 ## more color scheme here: https://highlightjs.org/static/test.html
 ## you can find more colorscheme here: http://www.bootcdn.cn/highlight.js/
