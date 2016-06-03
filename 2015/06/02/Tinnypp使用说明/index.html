@@ -1,0 +1,364 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>Tinnypp使用说明 | Tinnypp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    
+    <meta name="description" content="Tinnypp是一个hexo的小清新主题。就是在Tinny基础上做了些我自己认为的优化（折腾）。具体源码可见github。
+装载本主题安装12$ cd themes$ git clone git@github.com:levonlin/Tinnypp.git
+载入去你博客目录下的_config.ym">
+    
+    
+    
+    
+    <link rel="alternative" href="/Tinnypp/atom.xml" title="Tinnypp" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/Tinnypp/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/Tinnypp/img/myLogo.png">
+    <link rel="apple-touch-icon-precomposed" href="/Tinnypp/img/myLogo.png">
+    
+
+  
+    <link href="/Tinnypp/css/font-awesome.min.css" rel="stylesheet">
+    
+  
+
+    <link rel="stylesheet" href="/Tinnypp/css/style.css">
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?d182ed77fc48758bf45a33835ee35745";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+      <script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','.............Add your swiftype userID...............');
+</script>
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/Tinnypp/" title="Tinnypp">Tinnypp</a></h1>
+				<h2 class="blog-motto">A clean theme for Hexo</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+                    <ul>
+					 
+						<li><a href="/Tinnypp">首页</a></li>
+					
+						<li><a href="/Tinnypp/archives">归档</a></li>
+					
+					<li>
+					
+						<form class="search" action="/Tinnypp/search/index.html" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="st-search-inpu" maxlength="20" placeholder="Search" />
+						</form>
+					
+					</li>
+                <!--<li><div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div></li>-->
+
+				</ul>
+			</nav>	
+</div>
+    </header>
+    <div id="container" class="clearfix">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/Tinnypp/2015/06/02/Tinnypp使用说明/" title="Tinnypp使用说明" itemprop="url">Tinnypp使用说明</a>
+  </h1>
+  <p class="article-time">
+    <time datetime="2015-06-02T13:49:48.000Z" itemprop="datePublished">2015年 6月 2日</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title"></strong>
+		<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#装载本主题"><span class="toc-number">1.</span> <span class="toc-text">装载本主题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装"><span class="toc-number">1.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#载入"><span class="toc-number">1.2.</span> <span class="toc-text">载入</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#升级"><span class="toc-number">1.3.</span> <span class="toc-text">升级</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置本主题"><span class="toc-number">2.</span> <span class="toc-text">设置本主题</span></a></li></ol>
+		</div>
+		
+		<p>Tinnypp是一个<a href="https://github.com/hexojs/hexo" target="_blank" rel="external">hexo</a>的小清新主题。就是在<a href="https://github.com/zhanglun/hexo-theme/tree/master/Tinny" target="_blank" rel="external">Tinny</a>基础上做了些我自己认为的优化（折腾）。具体源码可见<a href="http://github.com/levonlin/Tinnypp/" target="_blank" rel="external">github</a>。</p>
+<h3 id="装载本主题"><a href="#装载本主题" class="headerlink" title="装载本主题"></a>装载本主题</h3><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd themes</span><br><span class="line">$ git <span class="keyword">clone</span> <span class="title">git</span>@github.com:levonlin/Tinnypp.git</span><br></pre></td></tr></table></figure>
+<h4 id="载入"><a href="#载入" class="headerlink" title="载入"></a>载入</h4><p>去你博客目录下的<code>_config.yml</code>文件编辑<code>theme</code>设定如下：</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">theme:</span> Tinnypp</span><br></pre></td></tr></table></figure>
+<h4 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h4><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>cd themes/Tinnypp</span><br><span class="line"><span class="variable">$ </span>git pull</span><br></pre></td></tr></table></figure>
+<h3 id="设置本主题"><a href="#设置本主题" class="headerlink" title="设置本主题"></a>设置本主题</h3><p>编辑<code>Tinnypp/_config.yml</code>文件即可。</p>
+<p>本主题:</p>
+<p>1.使用<a href="https://swiftype.com/" target="_blank" rel="external">swiftype</a>作为站内搜索引擎，如果你想使用这个酷炫的搜索，请在<code>Tinnypp/layout/_partial/head.ejs</code>里将最后一个<code>&lt;script&gt;&lt;/script&gt;</code>标签改为你的swiftype安装代码。（具体细节可参见<a href="http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype.html" target="_blank" rel="external">这篇文章</a>）</p>
+<p>2.使用<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>作为评论系统，可在<code>Tinnypp/_config.yml</code>中开启或关闭。此外如果你想显示评论者的<a href="http://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E4%BB%A3%E7%90%86" target="_blank" rel="external">user agent</a>，可直接修改<code>themes/Tinnypp/layout/_partial/after_footer.ejs</code>里的<code>ds.src = &#39;//static.duoshuo.com/embed.js&#39;;</code>为<code>&#39;ds.src = &#39;&lt;%- config.root %&gt;js/embed.js&#39;&#39;;</code>，并在你的多说里添加这个<a href="https://github.com/levonlin/Tinnypp/blob/master/source/css/%E5%A4%9A%E8%AF%B4%E8%87%AA%E5%AE%9A%E4%B9%89.css" target="_blank" rel="external">自定义css</a>即可。若还想显示你的“博主头衔”，请记得编辑<code>Tinnypp/source/js/embed.js</code>里的<code>e.user_id == your duoshuo ID</code>。</p>
+<p>3.已经设置/atom.xml为rss源。要使用rss,先安装hexo的rss插件：</p>
+<figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"><span class="meta-keyword">$npm</span> install hexo-generator-feed --save</span></span><br></pre></td></tr></table></figure>
+<p>对于hexo 2.x版本还要添加：</p>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plugins:</span><br><span class="line"><span class="bullet">- </span>hexo-generator-feed</span><br></pre></td></tr></table></figure>
+<p>到博客目录下的<code>_config.yml</code>，<strong>3.x版本不用这一步</strong>。</p>
+<p>4.中文显示在博客目录下的<code>_config.yml</code>设置</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">language:</span> <span class="built_in">zh</span>-CN</span><br></pre></td></tr></table></figure>
+<p>即可。但若想在文章发布日期有符合中文习惯的显示，请在<code>_config.yml</code>里继续设置</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">month_format:</span> YYYY年 M月</span><br><span class="line"><span class="string">date_format:</span> YYYY年 M月 D日 </span><br><span class="line"><span class="string">time_format:</span> <span class="string">H:</span><span class="string">mm:</span>ss</span><br></pre></td></tr></table></figure>
+<p>5.如果想用主题里的highgLight.js自定义代码高亮，有几点需要注意的：</p>
+<ul>
+<li>得先把hexo的<code>_config.yml</code>（不是主题里那个）里的highlight配置为false，否则就只能用hexo自带的的代码高亮；</li>
+<li>上一步做好后还得先hexo clean、再hexo g；新设置才会生效；</li>
+<li>由于主题里的highgLight.js使用了cdn加载样式，自定义的代码高亮只有在联网时才会显示，同时高亮样式的名字应该参考<a href="http://www.bootcdn.cn/highlight.js/" target="_blank" rel="external">cdn上的</a>；</li>
+<li>highgLight.js<strong>不支持</strong>显示行号。</li>
+</ul>
+<p>6.图标和头像的图片统一放置于<code>Tinnypp/source/img</code>。还要注意图片的格式与大小，详见主题目录的<code>_config.yml</code>。</p>
+<p>更多细节，各位亲们可以访问<a href="http://www.levonlin.info/tags/Tinnypp/" target="_blank" rel="external">我的博客</a>。如果觉得这个主题有什么值得吐槽和改进的地方，也欢迎各位亲们给我发<a href="https://github.com/levonlin/Tinnypp/issues" target="_blank" rel="external">issues</a>。</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://yoursite.com/Tinnypp/2015/06/02/Tinnypp使用说明/" data-title="Tinnypp使用说明 | Tinnypp" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/Tinnypp/2016/06/03/hello-world/" title="Hello World">
+  <strong>新一篇:</strong><br/>
+  <span>
+  Hello World</span>
+</a>
+</div>
+
+
+</nav>
+
+	
+<section class="comment">
+	
+	<div class="ds-thread" data-title="Tinnypp使用说明" data-thread-key="Tinnypp使用说明" data-author-key="null" data-url="http://yoursite.com/post/Tinnypp使用说明"></div>
+	
+</section>
+
+
+</div>  
+    </div>
+    <footer><div id="footer" >
+	<div class="copyright">
+		<span>Powered by <a href="https://github.com/hexojs/hexo">Hexo</a> and theme by 
+		<a href="https://github.com/levonlin/Tinnypp">Tinnypp</a>.</span>
+		
+			<span>© Levon</span>
+		
+	<div>
+</div></footer>
+    <script src="/Tinnypp/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  //back to top
+  function backToTop(){
+    var buttonHTML = $("<a href=\"#top\" id=\"back-top\">" + "<span>Back to Top</span></a>");
+    buttonHTML.appendTo($("body"));
+    var buttonToTop = $("#back-top");
+    // hide #back-top first
+    buttonToTop.hide();
+
+    // fade in #back-top
+    $(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                buttonToTop.fadeIn();
+            } else {
+                buttonToTop.fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        buttonToTop.click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
+  }
+  backToTop();
+
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      ta = $('#toc.toc-aside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+        
+    }
+  });
+
+  var show = true;
+  c.click(function(){
+    if(show == true){
+        a.addClass('fadeOut').css('display', 'none');
+        ta.css('display', 'block').addClass('fadeIn');
+        m.addClass('moveMain');  
+    }else{
+        a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');     
+        ta.css('display', 'none'); 
+        m.removeClass('moveMain');
+        $('#toc.toc-aside').css('display', 'none');
+    }
+    show = !show;
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,240-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"tinnypp"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';    //change to ds.src = '/Tinnypp/js/embed.js'; to add useragent for duoshuo
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+<link rel="stylesheet" href="/Tinnypp/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/Tinnypp/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+<script type="text/javascript">
+  function footerPosition() {
+    var contentHeight = document.documentElement.scrollHeight,
+        winHeight = window.innerHeight;
+    if(contentHeight <= winHeight) {
+      $('footer').addClass('fixed-bottom');
+    } else {
+      $('footer').removeClass('fixed-bottom');
+    }
+  }
+  footerPosition();
+  $(window).resize(footerPosition);
+</script>
+
+
+  </body>
+</html>
