@@ -1,6 +1,6 @@
-##Tinnypp
+## Tinnypp
 
-###About
+### About
 
 This is a clean theme for [hexo](https://github.com/hexojs/hexo)
 
@@ -8,16 +8,16 @@ It is based on [Tinny](https://github.com/zhanglun/hexo-theme/tree/master/Tinny)
 
 I have made some optimizations on Tinny and you can see the [demo](http://levonlin.github.io/Tinnypp/).
 
-###Installation
+### Installation
 
-####Install
+#### Install
 
 ```	
 	$ cd themes
 	$ git clone git@github.com:levonlin/Tinnypp.git
 ```
 
-####Enable
+#### Enable
 
 Modify the `theme` setting in `_config.yml` of the blog folder.
 
@@ -25,14 +25,14 @@ Modify the `theme` setting in `_config.yml` of the blog folder.
     theme: Tinnypp
 ```
 
-####Update
+#### Update
 
 ```
 	$ cd themes/Tinnypp
 	$ git pull
 ```
 
-###Configuration
+### Configuration
 
 Modify settings in the file `Tinnypp/_config.yml`.
 
@@ -43,10 +43,10 @@ Tinnypp :
 2.has set /atom.xml as an rss source.To use rss,you can install hexo rss plugin
 
 ```
-	$npm install hexo-generator-feed
+	$npm install hexo-generator-feed --save
 ```
 
-Then add 
+If you use **hexo 2.x versions**, you should also add 
 
 ```
 	plugins:
@@ -59,22 +59,22 @@ in `_config.yml` of the blog folder.
 
 For more details, you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/) .And if you have any problems, you can create [issues](https://github.com/levonlin/Tinnypp/issues).
 
-##中文说明
+## 中文说明
 
-###关于
+### 关于
 
 本主题是一个[hexo](https://github.com/hexojs/hexo)的小清新主题。就是在[Tinny](https://github.com/zhanglun/hexo-theme/tree/master/Tinny)基础上做了些我自己认为的优化（折腾）。具体效果可见[demo](http://levonlin.github.io/Tinnypp/)。
 
-###装载本主题
+### 装载本主题
 
-####安装
+#### 安装
 
 ```
 	$ cd themes
 	$ git clone git@github.com:levonlin/Tinnypp.git
 ```
 
-####载入
+#### 载入
 
 去你博客目录下的`_config.yml`文件编辑`theme`设定如下：
 
@@ -82,14 +82,14 @@ For more details, you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/)
     theme: Tinnypp
 ```
 
-####升级
+#### 升级
 
 ```
 	$ cd themes/Tinnypp
 	$ git pull
 ```
 
-###设置本主题
+### 设置本主题
 
 编辑`Tinnypp/_config.yml`文件即可。
 
@@ -102,17 +102,17 @@ For more details, you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/)
 3.已经设置/atom.xml为rss源。要使用rss,先安装hexo的rss插件：
 
 ```
-	$npm install hexo-generator-feed
+	$npm install hexo-generator-feed --save
 ```
 
-然后添加 
+对于hexo 2.x版本还要添加：
 
 ```
 	plugins:
 	- hexo-generator-feed
 ```
 
-到博客目录下的`_config.yml`。
+到博客目录下的`_config.yml`，**3.x版本不用这一步**。
 
 4.中文显示在博客目录下的`_config.yml`设置
 
@@ -123,8 +123,8 @@ For more details, you can vist [My blog](http://www.levonlin.info/tags/Tinnypp/)
 即可。但若想在文章发布日期有符合中文习惯的显示，请在`_config.yml`里继续设置
 
 ```
-	month_format: YYYY年 MMM
-	date_format: YYYY年 MMM D日 
+	month_format: YYYY年 M月
+	date_format: YYYY年 M月 D日 
 	time_format: H:mm:ss
 ```
 

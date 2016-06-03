@@ -27,7 +27,7 @@ excerpt_link: 阅读更多
 ## modify links in `/layout/_widget/links.ejs`.
 
 #### RSS
-rss: /Tinnypp/atom.xml## RSS address.
+rss: /Tinnypp/atom.xml     ## RSS address.
 
 #### Image
 imglogo:
@@ -64,7 +64,6 @@ fancybox: true
 ## in theme folder `/Tinnypp/scripts` to your hexo blog folder `../scritps`.
 
 #### highgLight.js
-
 colorscheme:
   enable: false
   color: railscasts
